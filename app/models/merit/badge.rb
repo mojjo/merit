@@ -40,7 +40,7 @@ module Merit
     end
 
     def image
-      ActionController::Base.helpers.asset_path("images/badges/#{self.name}.png")
+      ActionController::Base.helpers.asset_path("assets/badges/#{self.name}.png")
     end
 
     def value
